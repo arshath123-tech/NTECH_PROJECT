@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+      font-family: "Tinos", serif;
+      background-color: azure;
+     
+}
+
+button{
+    font-size: 14px;
+    font-weight: 800;
+    
+}
+/* Header section*/
+
+#first{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(228, 78, 78);
+    color: white;
+    width: 75%;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar>.section2{
+    display: flex;
+    gap: 20px;
+}
+
+.navbar> img{
+    height: 60px;
+    width: 80px;
+    border-radius: 2px;
+}
+
+.navbar h3:hover{
+    text-decoration: underline;
+    color:rgb(247, 192, 40);
+}
+
+.navbar button{
+    padding: 10px;
+    color: white;
+    background-color: rgb(239, 140, 104);
+    border-radius: 10px;
+    border: none;
+    transition: all 0.5s ease-in;
+}
+
+.navbar button:hover{
+    padding: 8px;
+    background-color:rgb(226, 46, 226);
+}
+
+
