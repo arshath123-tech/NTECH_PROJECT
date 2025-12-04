@@ -6,13 +6,15 @@
 
 body{
       font-family: "Tinos", serif;
-      background-color: azure;
+      background-color: rgb(241, 231, 231);
+
      
 }
 
 button{
     font-size: 14px;
     font-weight: 800;
+    
     
 }
 /* Header section*/
@@ -22,7 +24,7 @@ button{
     flex-direction: column;
     background-color: rgb(228, 78, 78);
     color: white;
-    width: 75%;
+    width: 80%;
     
 }
 
@@ -33,16 +35,24 @@ button{
     padding: 10px;
 }
 
-.navbar>.section2{
-    display: flex;
-    gap: 20px;
-}
 
 .navbar> img{
     height: 60px;
     width: 80px;
     border-radius: 2px;
 }
+
+.navbar>.section2{
+    display: flex;
+    gap: 20px;
+}
+
+.navbar>.section3{
+     display: flex;
+     align-items: center;
+     gap: 5px;
+}
+
 
 .navbar h3:hover{
     text-decoration: underline;
